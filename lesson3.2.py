@@ -18,16 +18,16 @@ print(capitals)
 capitals = dict(RUS='Moscow', KG = 'Bishkek', GB='London')
 print(capitals)
 capitals = dict([('RUS', 'Moscow'), ('KG','Bishkek'), ('GB', 'London')])
-print(capitals)
+print(capitals)'''
 
-new_dict =dict(zip(['RUS', 'KG', 'GB'], ['Moskow','Bishkek', 'London']))
-print(new_dict)
+'''new_dict =dict(zip(['RUS', 'KG', 'GB'], ['Moskow','Bishkek', 'London']))
+print(new_dict)'''
 
 # method fromkeys создает словарь из ключей
 dictionary = dict.fromkeys(['key1', 'key2'],[ "7", '8'])
-print(dictionary)'''
+print(dictionary)
 
-# method got получает знач по ключу
+# method get получает знач по ключу
 
 '''capitals = dict(RUS='Moscow', KG = 'Bishkek', GB='London')
 print(capitals.get('RUS'))
@@ -41,7 +41,7 @@ print(nums)'''
 
 # method keys выводит все ключи из словаря
 # method values выводит все значения
-# method items возвращает парк ключ и значение
+# method items возвращает пару ключ и значение
 # method pop удаляет по ключу и возвращвет ном значение
 
 '''capitals = dict(RUS='Moscow', KG = 'Bishkek', GB='London')
@@ -67,7 +67,11 @@ print(capitals)
 '''
 
 # method setdefault
-capitals = dict(RUS='Moscow', KG = 'Bishkek', GB='London')
-new = capitals.setdefault('KGZ')
+'''capitals = dict(RUS='Moscow', KG = 'Bishkek', GB='London')
+new = capitals.setdefault('KG')
 print(new)
-print(capitals)
+print(capitals)'''
+
+'''new_dict = {}
+new_dict2 = dict()
+print(type(new_dict2))'''
