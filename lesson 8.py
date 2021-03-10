@@ -1,1 +1,2 @@
-print(" ".join(map(str, sorted(map(int, input().split())))))
+for i in range(0,101):
+    print(i )
